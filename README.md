@@ -312,7 +312,7 @@ string GetNativeThreadName(int nativeThreadId)
 
     This time, you will notice that the program behaves exactly the same way as Task.Delay.  However, the Debug Console output and the terminal output are significantly different. If you can explain why, you have understood the .NET Thread Pool behavior and corresponding Linux OS behavior better than before.
 
-    ## Where to Go From Here
+    ## Where to Go from Here
     If you dig deeper, there is lot more happening under the hood of .NET thread pool as well as at the OS level. Even though what we covered here are the foundational concepts and default behavior, there are ways to alter those behaviors. One such example is ```SynchronizationContext```. To get a deeper understanding, you may want to read the sources (the book, github, etc) I mentioned in the Introduction. A good understanding of how thread pool works and being able to determine when to use ```ThreadPool``` versus the raw ```Thread``` class is an important skill in every .NET engineer's skillset.
 
 
